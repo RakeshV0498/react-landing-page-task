@@ -3,11 +3,11 @@ import "./hero.css";
 function Hero() {
   return (
     <>
-      <header className="img-head">
+      <header className="masthead">
         <article className="container position-relative">
           <section className="row justify-content-center">
             <div className="col-xl-6">
-              <div className="text-center-text-white">
+              <div className="text-center text-white">
                 <h1 className="mb-5">
                   Generate more leads with a professional landing page!
                 </h1>
