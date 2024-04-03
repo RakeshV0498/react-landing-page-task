@@ -1,11 +1,12 @@
-.masthead {
+header.masthead {
   position: relative;
+  background-color: #343a40;
   background: url("../../assets/bg-masthead.jpg") no-repeat center center;
-  background-size: 150%;
-  padding: 12rem 0;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
-
-.masthead::before {
+header.masthead:before {
   content: "";
   position: absolute;
   background-color: #1c375e;
@@ -15,10 +16,15 @@
   left: 0;
   opacity: 0.5;
 }
+header.masthead h1,
+header.masthead .h1 {
+  font-size: 2rem;
+}
 
 .form-control-lg {
   padding: 1rem 1.25rem;
   font-size: 1.5rem;
+  font-weight: 700;
   border-radius: 0.5rem;
 }
 
@@ -26,4 +32,15 @@
   padding: 1rem 1.25rem;
   border-radius: 0.5rem;
   font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  header.masthead h1,
+  header.masthead .h1 {
+    font-size: 3rem;
+  }
 }
