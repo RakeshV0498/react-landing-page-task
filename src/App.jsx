@@ -5,6 +5,7 @@ import { features, showcaseData, testimonialData } from "./data";
 import Features from "./components/Features/Features";
 import Showcase from "./components/showcase/Showcase";
 import Testimony from "./components/Testimonials/Testimonial";
+import CallToAction from "./components/calltoaction/CTA";
 
 function App() {
   return (
@@ -55,6 +56,8 @@ function App() {
           </div>
         </div>
       </section>
+      {/* Call to Action */}
+      <CallToAction />
     </>
   );
 }
