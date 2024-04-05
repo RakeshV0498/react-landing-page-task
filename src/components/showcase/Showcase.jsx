@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import "./Showcase.css";
 
 function Showcase({ img, title, desc }) {
   return (
