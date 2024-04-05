@@ -6,6 +6,7 @@ import Features from "./components/Features/Features";
 import Showcase from "./components/showcase/Showcase";
 import Testimony from "./components/Testimonials/Testimonial";
 import CallToAction from "./components/calltoaction/CTA";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -58,6 +59,8 @@ function App() {
       </section>
       {/* Call to Action */}
       <CallToAction />
+      {/* Footer Section */}
+      <Footer />
     </>
   );
 }
