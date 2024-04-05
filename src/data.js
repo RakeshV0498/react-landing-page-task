@@ -1,6 +1,9 @@
 import bgShowcase1 from "../src/assets/bg-showcase-1.jpg";
 import bgShowcase2 from "../src/assets/bg-showcase-2.jpg";
 import bgShowcase3 from "../src/assets/bg-showcase-3.jpg";
+import user1 from "../src/assets/testimonials-1.jpg";
+import user2 from "../src/assets/testimonials-2.jpg";
+import user3 from "../src/assets/testimonials-3.jpg";
 
 const features = [
   {
@@ -44,4 +47,27 @@ const showcaseData = [
   },
 ];
 
-export { features, showcaseData };
+const testimonialData = [
+  {
+    id: 1,
+    img: user1,
+    name: "Margaret E.",
+    testimony: '"This is fantastic! Thanks so much guys!"',
+  },
+  {
+    id: 2,
+    img: user2,
+    name: "Fred S.",
+    testimony:
+      '"Bootstrap is amazing. I\'ve been using it to create lots of super nice landing pages."',
+  },
+  {
+    id: 3,
+    img: user3,
+    name: "Sarah W.",
+    testimony:
+      '"Thanks so much for making these free resources available to us!"',
+  },
+];
+
+export { features, showcaseData, testimonialData };
