@@ -1,9 +1,10 @@
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/hero";
-import { features, showcaseData } from "./data";
+import { features, showcaseData, testimonialData } from "./data";
 import Features from "./components/Features/Features";
 import Showcase from "./components/showcase/Showcase";
+import Testimony from "./components/Testimonials/Testimonial";
 
 function App() {
   return (
@@ -36,6 +37,22 @@ function App() {
               desc={data.desc}
             />
           ))}
+        </div>
+      </section>
+      {/* Testimonials */}
+      <section className="testimonials text-center bg-light">
+        <div className="container">
+          <h2 className="mb-5">What people are saying...</h2>
+          <div className="row">
+            {testimonialData.map((testimony) => (
+              <Testimony
+                key={testimony.id}
+                img={testimony.img}
+                name={testimony.name}
+                testimony={testimony.testimony}
+              />
+            ))}
+          </div>
         </div>
       </section>
     </>
