@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import "./Testimonial.css";
 
 function Testimony({ img, name, testimony }) {
   return (
