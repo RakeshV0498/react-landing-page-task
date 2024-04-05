@@ -4,7 +4,7 @@ function CallToAction() {
   return (
     <>
       <article className="call-to-action text-white text-center">
-        <section className="container postion-relative">
+        <section className="container position-relative">
           <div className="row justify-content-center">
             <div className="col-xl-6">
               <h2 className="mb-4">Ready to get started? Sign up now!</h2>
